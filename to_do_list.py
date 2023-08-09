@@ -10,3 +10,13 @@ while not finished:
     else:
         to_do_list.append(task)
         print("task added.")
+
+
+        
+# Display the to-do list.
+
+print()
+print("Your To-Do List:  ")
+print("-" * 16)
+for task in to_do_list:
+    print(task)
